@@ -22,7 +22,6 @@ for(let i = 0; i < button.length; i++) {
 }
 
 // сортировка пиццы
-console.log();
 
 const pizza = document.querySelectorAll('.pizza');
 document.querySelector('.sorting__name').addEventListener('click', function (e) {
