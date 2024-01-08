@@ -51,8 +51,7 @@ document.querySelector('.sorting__name').addEventListener('click', function (e) 
 
 
 
-  let prise = document.querySelector('.pricebutton__price');
-  let endPrise = document.querySelector('.freebasket__title');
+ 
 
   let extr = document.querySelectorAll('.all')
   let active = extr[0];
@@ -67,11 +66,7 @@ function settings(ex, ac,) {
   for( let i = 0; i < ex.length; i++ ){
     ex[i].addEventListener('click', function(){
 
-      let arr = [];
-      let prise = document.querySelectorAll('.pricebutton__price');
-      for( let i = 0; i < prise.length; i++ )
-    arr.push(prise[i].textContent);
-console.log(arr);
+
 
 
       if ( ac == this) {
