@@ -1,16 +1,15 @@
 .sorting {
   // .sorting__flex
 
-  &__flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  // &__flex {
+  // }
 
   // .sorting__name
 
-  //   &__name {
-  //   }
+    &__name {
+      display: flex;
+      justify-content: space-around;
+    }
 
   &__all{
     width: 82.11px;
@@ -204,3 +203,8 @@
   background: #f9f9f9;
   border-radius: 30px;
 }
+
+// .hovThis {
+//   color: #fff;
+//   background: #282828;
+// }
